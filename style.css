@@ -2,24 +2,34 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 2px 20%;
+    padding: 0px 20%;
     align-items: center;
+    background-color: #1f2937;
 }
 
 a {
     text-decoration: none;
+    color: #e5e7eb;
 }
 
 .header-links ul {
     display: flex;
     list-style: none;
-    gap: 8px;
+    gap: 12px;
 }
+
+.header .logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
 
 .container {
     flex: 1;
@@ -29,18 +39,42 @@ a {
     display: flex;
     justify-content: center;
     padding: 100px 20%;
-    gap: 8px
+    gap: 8px;
+    background-color: #1f2937;
 }
 
 .title-image img {
     height: 350px;
 }
 
+.top-portion .title {
+    font-size: 48px;
+    font-weight: 900px;
+    color: #f9faf8;
+}
+
+.top-portion .subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.top-portion button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    border-color: #3882f6;
+    color: #f9faf8;
+    min-width: 90px;
+}
+
 .some-info {
     display: flex;
     justify-content: space-around;
-    padding: 0px 20%;
+    padding: 50px 15%;
     align-items: baseline;
+}
+
+.gadget-name {
+    text-align: center;
 }
 
 .info {
@@ -54,21 +88,39 @@ a {
     display: flex;
     min-height: 200px;
     justify-content: center;
-    padding: 50px 25%;
+    padding: 40px 25%;
     flex-direction: column;
+    background-color: #e5e7eb;
+}
+
+.quote .text {
+    font-size: 30px;
+    color: #1f2937;
+    font-style: italic;
 }
 
 .quote .speaker {
     align-self: flex-end;
+    font-weight: bold;
 }
 
 .signup {
     display: flex;
-    padding: 10px 25%;
+    padding: 50px 5%;
     justify-content: space-between;
+    background-color: #3882f6;
+    margin: 40px 20% 40px 20%;
+    border-radius: 8px;
 }
+
+.signup .content {
+    display: flex;
+    flex-direction: column;
+}
+
 
 .footer {
     text-align: center;
-    margin-top: 50px;
+    background-color: #1f2937;
+    color: #e5e7eb;
 }
