@@ -38,8 +38,8 @@ a {
 .top-portion {
     display: flex;
     justify-content: center;
-    padding: 100px 20%;
-    gap: 8px;
+    padding: 80px 20%;
+    gap: 50px;
     background-color: #1f2937;
 }
 
@@ -53,9 +53,16 @@ a {
     color: #f9faf8;
 }
 
+.top-portion .content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
 .top-portion .subtext {
     font-size: 18px;
     color: #e5e7eb;
+    max-width: 400px;
 }
 
 .top-portion button {
@@ -64,17 +71,18 @@ a {
     border-color: #3882f6;
     color: #f9faf8;
     min-width: 90px;
+    max-width: 100px;
 }
 
 .some-info {
     display: flex;
     justify-content: space-around;
     padding: 50px 15%;
-    align-items: baseline;
 }
 
 .gadget-name {
     text-align: center;
+    font-weight: 600;
 }
 
 .info {
@@ -83,6 +91,22 @@ a {
     flex-direction: column;
     gap: 20px;
 }
+
+.info img {
+    height: 130px;
+    width: auto;
+    border: 2px solid #1f2937;
+}
+
+/* .gadget {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.gadget img {
+     max-width: 200px;
+} */
 
 .quote {
     display: flex;
@@ -116,8 +140,27 @@ a {
 .signup .content {
     display: flex;
     flex-direction: column;
+    gap: 4px;
 }
 
+.hook {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.signup .content .subtext {
+    color: #e5e7eb;
+    font-size: 15px;
+}
+
+.signup button {
+    background-color: #3882f6;
+    border-color: #f9faf8;
+    border-radius: 8px;
+    width: 100px;
+    height: 30px;
+    color: #f9faf8;
+}
 
 .footer {
     text-align: center;
