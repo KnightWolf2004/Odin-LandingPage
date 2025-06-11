@@ -49,3 +49,15 @@ a {
     flex-direction: column;
     gap: 20px;
 }
+
+.quote {
+    display: flex;
+    min-height: 200px;
+    justify-content: center;
+    padding: 50px 25%;
+    flex-direction: column;
+}
+
+.quote .speaker {
+    align-self: flex-end;
+}
