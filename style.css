@@ -61,3 +61,14 @@ a {
 .quote .speaker {
     align-self: flex-end;
 }
+
+.signup {
+    display: flex;
+    padding: 10px 25%;
+    justify-content: space-between;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+}
